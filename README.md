@@ -11,6 +11,7 @@ Several analytics around bikeshare data in three cities
 
 ### Files used
 bikeshare_2.py
+Readme.md
 
 ### Credits
 Credits only to myself and Udacity
