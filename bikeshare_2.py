@@ -29,7 +29,6 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # city, month, day = 'new york city', 'all', 'all'
     city, month, day = '', '', ''
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while city == '':
@@ -96,7 +95,6 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
-
         month = MONTHS.index(month) + 1
 
         # filter by month to create the new dataframe
